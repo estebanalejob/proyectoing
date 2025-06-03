@@ -1,0 +1,33 @@
+.clientes-header {
+  background: #ddd;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.clientes-form {
+  background: #eee;
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+}
+.clientes-form input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.buscar-btn {
+  background: #ffe066;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+}

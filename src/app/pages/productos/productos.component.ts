@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-clientes',
+  selector: 'app-productos',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './clientes.component.html',
-  styleUrls: ['./clientes.component.css']
+  templateUrl: './productos.component.html',
+  styleUrls: ['./productos.component.css']
 })
-export class ClientesComponent {}
+export class ProductosComponent {}

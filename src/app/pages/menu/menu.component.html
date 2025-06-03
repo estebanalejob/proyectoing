@@ -1,0 +1,16 @@
+<div class="header">Gestor de Inventarios</div>
+<div class="menu-layout">
+  <div class="sidebar">
+    <div class="profile">
+      <div class="avatar"></div>
+      <span>{{ controller.usuario.nombre }}</span>
+    </div>
+    <button routerLink="/dashboard/clientes" routerLinkActive="active">Clientes</button>
+    <button routerLink="/dashboard/productos" routerLinkActive="active">Productos</button>
+    <button disabled>Proveedores</button>
+    <button disabled>Reportes</button>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

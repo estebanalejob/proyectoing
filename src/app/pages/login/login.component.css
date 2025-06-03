@@ -1,0 +1,29 @@
+.header {
+  background: #4096ee;
+  color: #222;
+  padding: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.icon-container {
+  background: #eee;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px #bbb;
+}
+button {
+  background: #4096ee;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
