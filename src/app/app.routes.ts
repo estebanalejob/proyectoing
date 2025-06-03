@@ -5,6 +5,7 @@ import { ClientesComponent } from './pages/clientes/clientes.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { ProveedoresComponent } from './pages/proveedores/proveedores.component';
 import { AgregarProductoComponent } from './pages/productos/agregar-producto/agregar-producto.component';
+import { EliminarProductoComponent } from './pages/productos/eliminar-producto/eliminar-producto.component';
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -16,7 +17,8 @@ export const routes: Routes = [
       { path: 'clientes', component: ClientesComponent },
       { path: 'productos', component: ProductosComponent },
       { path: 'proveedores', component: ProveedoresComponent },
-      { path: 'productos/agregar', component: AgregarProductoComponent }
+      { path: 'productos/agregar', component: AgregarProductoComponent },
+      { path: 'productos/eliminar', component: EliminarProductoComponent }
     ]
   }
 ];
