@@ -39,6 +39,7 @@
   cursor: pointer;
 }
 
+/* Centra los botones y les da espacio */
 .acciones {
   display: flex;
   gap: 30px;
@@ -46,7 +47,8 @@
   justify-content: center;
 }
 
-.acciones button {
+/* Estilo uniforme para los enlaces-botón */
+.btn-link {
   background: #e0e0e0;
   border: none;
   padding: 15px 25px;
@@ -55,8 +57,12 @@
   font-size: 1rem;
   box-shadow: 1px 1px 4px #bbb;
   transition: background 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-align: center;
 }
 
-.acciones button:hover {
+.btn-link:hover {
   background: #b3d1f7;
 }
