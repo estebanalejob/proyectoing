@@ -4,6 +4,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { ProveedoresComponent } from './pages/proveedores/proveedores.component';
+import { AgregarProductoComponent } from './pages/productos/agregar-producto/agregar-producto.component';
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -14,7 +15,8 @@ export const routes: Routes = [
       { path: '', redirectTo: 'clientes', pathMatch: 'full' },
       { path: 'clientes', component: ClientesComponent },
       { path: 'productos', component: ProductosComponent },
-      { path: 'proveedores', component: ProveedoresComponent }
+      { path: 'proveedores', component: ProveedoresComponent },
+      { path: 'productos/agregar', component: AgregarProductoComponent }
     ]
   }
 ];
