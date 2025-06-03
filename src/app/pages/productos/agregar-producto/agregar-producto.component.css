@@ -66,3 +66,9 @@
 .btn-link:hover {
   background: #b3d1f7;
 }
+
+.btn-menu {
+  font-weight: bold;
+  background: #fffbe6;
+  border: 1px solid #ffe066;
+}
