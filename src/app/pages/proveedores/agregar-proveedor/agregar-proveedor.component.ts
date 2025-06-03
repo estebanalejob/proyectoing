@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-proveedores',
+  selector: 'app-agregar-proveedor',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './proveedores.component.html',
-  styleUrls: ['./proveedores.component.css']
+  templateUrl: './agregar-proveedor.component.html',
+  styleUrls: ['./agregar-proveedor.component.css']
 })
-export class ProveedoresComponent {}
+export class AgregarProveedorComponent {}

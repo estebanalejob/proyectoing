@@ -10,7 +10,7 @@
   align-items: center;
   height: 60vh;
 }
-button {
+.btn-link {
   background: #e0e0e0;
   border: none;
   padding: 15px 25px;
@@ -19,7 +19,11 @@ button {
   font-size: 1rem;
   box-shadow: 1px 1px 4px #bbb;
   transition: background 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-align: center;
 }
-button:hover {
+.btn-link:hover {
   background: #b3d1f7;
 }

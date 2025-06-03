@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-proveedores',
+  selector: 'app-info-proveedores',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './proveedores.component.html',
-  styleUrls: ['./proveedores.component.css']
+  templateUrl: './info-proveedores.component.html',
+  styleUrls: ['./info-proveedores.component.css']
 })
-export class ProveedoresComponent {}
+export class InfoProveedoresComponent {}

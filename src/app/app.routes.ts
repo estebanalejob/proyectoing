@@ -7,6 +7,9 @@ import { ProveedoresComponent } from './pages/proveedores/proveedores.component'
 import { AgregarProductoComponent } from './pages/productos/agregar-producto/agregar-producto.component';
 import { EliminarProductoComponent } from './pages/productos/eliminar-producto/eliminar-producto.component';
 import { VerProductosComponent } from './pages/productos/ver-productos/ver-productos.component';
+import { InfoProveedoresComponent } from './pages/proveedores/info-proveedores/info-proveedores.component';
+import { AgregarProveedorComponent } from './pages/proveedores/agregar-proveedor/agregar-proveedor.component';
+import { EliminarProveedorComponent } from './pages/proveedores/eliminar-proveedor/eliminar-proveedor.component';
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -20,7 +23,10 @@ export const routes: Routes = [
       { path: 'proveedores', component: ProveedoresComponent },
       { path: 'productos/agregar', component: AgregarProductoComponent },
       { path: 'productos/eliminar', component: EliminarProductoComponent },
-      { path: 'productos/ver', component: VerProductosComponent }
+      { path: 'productos/ver', component: VerProductosComponent },
+      { path: 'proveedores/info', component: InfoProveedoresComponent },
+      { path: 'proveedores/agregar', component: AgregarProveedorComponent },
+      { path: 'proveedores/eliminar', component: EliminarProveedorComponent },
     ]
   }
 ];
